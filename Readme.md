@@ -1,5 +1,5 @@
 # Dmitry Pasichnik test task
-This is my test task for the chat application using ExtJJ 6.5 universal app with modern package as client and NodeJS+Express+Socket.io+mySQL as a backend
+This is my test task for the chat application using ExtJS 6.5 universal app with modern package as client and NodeJS+Express+Socket.io+mySQL as a backend
 
 # Requirements
 - Sencha CMD 6.5
