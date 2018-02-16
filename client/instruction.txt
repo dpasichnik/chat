@@ -1,0 +1,3 @@
+sencha -sdk ext generate app --modern chat .
+sencha generate theme chat
+Change 'classic' to 'modern' in packages/local/chat/package.json line 49
