@@ -24,11 +24,6 @@ const Message = sequelize.define('message', {
     timestamps: false
 });
 
-//sequelize.query('SELECT * FROM messages', { model: Message }).then(function(msgs){
-
-//    console.info(msgs);
-//})
-
 
 app.use(express.static(__dirname+"\\client"));
 
@@ -76,7 +71,6 @@ io.on('connection', function(socket){
     });
     socket.on('Message update', function(req, res){
         console.log('Message update');
-        console.log(req.data.page); // 1
 
         res({
             type    : req.type,
@@ -92,7 +86,6 @@ io.on('connection', function(socket){
     });
     socket.on('Message destroy', function(req, res){
         console.log('Message destroy');
-        console.log(req.data.page); // 1
 
         res({
             type    : req.type,

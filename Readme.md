@@ -34,6 +34,7 @@ CREATE TABLE IF NOT EXISTS `messages` (
 
 ```
 
+Place ExtJS framework into ext folder at /client
 
 # Usage
 
